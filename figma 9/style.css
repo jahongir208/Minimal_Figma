@@ -1,0 +1,1209 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@media (max-width: 1301px) {
+  .selector {
+    height: 700px !important;
+  }
+}
+@media (max-width: 1116px) {
+  .last-one2 {
+    margin: 50px 0px;
+  }
+}
+@media (max-width: 851px) {
+  .selector {
+    height: 1000px !important;
+  }
+}
+@media (max-width: 800px) {
+  nav .mixin .href {
+    display: none !important;
+  }
+  nav .mixin .icon .btn {
+    display: block !important;
+  }
+  .text h1 {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 799px) {
+  .script {
+    margin: auto !important;
+    text-align: center !important;
+  }
+}
+@media (max-width: 670px) {
+  .under {
+    height: 400px !important;
+  }
+}
+@media (max-width: 540px) {
+  .text h1 {
+    width: 100% !important;
+    font-size: 23px !important;
+  }
+  .text p {
+    font-size: 12px !important;
+  }
+  .input input {
+    margin: auto;
+  }
+  .input button {
+    width: 180px !important;
+  }
+}
+@media (max-width: 390px) {
+  figure {
+    padding: 120px 0px !important;
+  }
+  figure .last-one h4 {
+    font-size: 20px !important;
+  }
+  figure .last-one2 {
+    margin: 100px 0px !important;
+  }
+  .under {
+    height: 480px !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.site {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 30px 0px;
+  position: relative;
+}
+nav .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .box .mix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+nav .box .mix h3 {
+  font-family: Oswald;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  color: #333333;
+}
+nav .box .mixin {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+nav .box .mixin .href {
+  display: flex;
+  gap: 30px;
+}
+nav .box .mixin .href a {
+  color: black;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+nav .box .mixin .icon {
+  display: flex;
+  align-items: center;
+}
+nav .box .mixin .icon button {
+  display: none;
+  border: none;
+  background: transparent;
+}
+nav .box .mixin .icon button i {
+  font-size: 25px;
+  cursor: pointer;
+}
+nav .box .mixin .list {
+  display: none;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.848);
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  left: 0;
+  height: 230px;
+  text-align: center;
+  padding: 20px 0px;
+  border-radius: 5px;
+  margin: auto;
+}
+nav .box .mixin .list a {
+  color: white;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center !important;
+  margin: auto !important;
+  display: block !important;
+  flex-direction: column !important;
+}
+nav .box .mixin .list button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+nav .box .mixin .list button i {
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+}
+
+header {
+  background: url(./img/IMAGE\ \(14\).png);
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+header .text {
+  text-align: center;
+  margin: auto;
+  padding: 60px 0px;
+}
+header .text h1 {
+  width: 65%;
+  margin: auto;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+header .text .line-in {
+  text-align: center;
+  height: 3px;
+  background-color: white;
+  width: 80px;
+  margin: 30px auto;
+}
+header .text p {
+  padding: 0px 0px;
+  font-family: Vollkorn;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+}
+
+.under {
+  background: #fefec9;
+  width: 100%;
+  height: 300px;
+}
+.under .enter {
+  text-align: center;
+  margin: auto;
+  padding: 70px 0px;
+}
+.under .enter h1 {
+  width: 69%;
+  text-align: center;
+  margin: auto;
+  font-family: Vollkorn;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+.under .enter button {
+  text-align: center !important;
+  margin: 30px auto !important;
+  width: 159px;
+  height: 53px;
+  border: 1px solid black;
+  cursor: pointer;
+  background: transparent;
+}
+
+.import {
+  display: block !important;
+}
+
+section {
+  margin: 50px 0px;
+}
+section .pause {
+  margin: auto;
+  text-align: center;
+}
+section .pause h1 {
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #333333;
+}
+section .pause .bottom-line {
+  width: 80px;
+  height: 2px;
+  background: #333333;
+  text-align: center;
+  margin: 30px auto;
+}
+section .script {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+section .script .script1 {
+  width: 319.98px;
+  height: 368px;
+}
+section .script .script1 .module {
+  width: 300px;
+  height: 219px;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+section .script .script1 .module img {
+  padding: 50px 90px;
+}
+section .script .script1 .area {
+  padding: 20px 0px;
+  text-align: center;
+}
+section .script .script1 .area h3 {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+section .script .script1 .area p {
+  padding: 20px 0px;
+  font-family: Vollkorn;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+section .script .script2 {
+  width: 319.98px;
+  height: 368px;
+}
+section .script .script2 .module {
+  width: 300px;
+  height: 219px;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+section .script .script2 .module img {
+  padding: 50px 90px;
+}
+section .script .script2 .area {
+  padding: 20px 0px;
+  text-align: center;
+}
+section .script .script2 .area h3 {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+section .script .script2 .area p {
+  padding: 20px 0px;
+  font-family: Vollkorn;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+section .script .script3 {
+  width: 319.98px;
+  height: 368px;
+}
+section .script .script3 .module {
+  width: 300px;
+  height: 219px;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+section .script .script3 .module img {
+  padding: 50px 90px;
+}
+section .script .script3 .area {
+  padding: 20px 0px;
+  text-align: center;
+}
+section .script .script3 .area h3 {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+section .script .script3 .area p {
+  padding: 20px 0px;
+  font-family: Vollkorn;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+main {
+  background: #f5f5f5;
+  width: 100%;
+  padding: 80px 0px;
+}
+main .reject {
+  text-align: center;
+  margin: auto;
+}
+main .reject h1 {
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin: auto;
+}
+main .reject .black {
+  width: 80px;
+  height: 2px;
+  text-align: center;
+  margin: 30px auto;
+  background: rgba(0, 0, 0, 0.0901960784);
+}
+main .iframe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+main .iframe .iframe1 {
+  width: 300px;
+  height: 383px;
+  background-color: white;
+  cursor: pointer;
+  overflow: hidden;
+}
+main .iframe .iframe1 img {
+  transition: 0.5s;
+}
+main .iframe .iframe1 img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+main .iframe .iframe1 h2 {
+  margin: 10px 0px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .iframe .iframe1 h4 {
+  margin: 10px 0px;
+  text-align: center;
+  margin: auto;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .iframe .iframe2 {
+  width: 300px;
+  height: 383px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+}
+main .iframe .iframe2 h2 {
+  margin: 10px 0px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .iframe .iframe2 h4 {
+  margin: 10px 0px;
+  text-align: center;
+  margin: auto;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .iframe .iframe2 img {
+  transition: 0.5s;
+}
+main .iframe .iframe2 img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+main .iframe .iframe3 {
+  width: 300px;
+  height: 383px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+}
+main .iframe .iframe3 h2 {
+  margin: 10px 0px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .iframe .iframe3 h4 {
+  margin: 10px 0px;
+  text-align: center;
+  margin: auto;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .iframe .iframe3 img {
+  transition: 0.5s;
+}
+main .iframe .iframe3 img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+main .frame {
+  margin: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+main .frame .frame4 {
+  width: 300px;
+  height: 383px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+}
+main .frame .frame4 h2 {
+  margin: 10px 0px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .frame .frame4 h4 {
+  margin: 10px 0px;
+  text-align: center;
+  margin: auto;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .frame .frame4 img {
+  transition: 0.5s;
+}
+main .frame .frame4 img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+main .frame .frame5 {
+  width: 300px;
+  height: 383px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+}
+main .frame .frame5 h2 {
+  margin: 10px 0px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .frame .frame5 h4 {
+  margin: 10px 0px;
+  text-align: center;
+  margin: auto;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .frame .frame5 img {
+  transition: 0.5s;
+}
+main .frame .frame5 img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+main .frame .frame6 {
+  width: 300px;
+  height: 383px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+}
+main .frame .frame6 h2 {
+  margin: 10px 0px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .frame .frame6 h4 {
+  margin: 10px 0px;
+  text-align: center;
+  margin: auto;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .frame .frame6 img {
+  transition: 0.5s;
+}
+main .frame .frame6 img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+main .name {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+main .name .name1 {
+  width: 300px;
+  height: 383px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+}
+main .name .name1 h2 {
+  margin: 10px 0px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .name .name1 h4 {
+  margin: 10px 0px;
+  text-align: center;
+  margin: auto;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .name .name1 img {
+  transition: 0.5s;
+}
+main .name .name1 img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+main .name .name2 {
+  width: 300px;
+  height: 383px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+}
+main .name .name2 h2 {
+  margin: 10px 0px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .name .name2 h4 {
+  margin: 10px 0px;
+  text-align: center;
+  margin: auto;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .name .name2 img {
+  transition: 0.5s;
+}
+main .name .name2 img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+main .name .name3 {
+  width: 300px;
+  height: 383px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+}
+main .name .name3 h2 {
+  margin: 10px 0px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .name .name3 h4 {
+  margin: 10px 0px;
+  text-align: center;
+  margin: auto;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+main .name .name3 img {
+  transition: 0.5s;
+}
+main .name .name3 img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+}
+
+article {
+  padding: 100px 0px;
+}
+article h1 {
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+article .web {
+  width: 80px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.0901960784);
+  text-align: center;
+  margin: 20px auto;
+}
+article .acer {
+  margin: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+article .acer .acer1 {
+  width: 240px;
+  height: 339px;
+  overflow: hidden;
+}
+article .acer .acer1 img {
+  cursor: pointer;
+  transition: 0.7s;
+}
+article .acer .acer1 img:hover {
+  transform: scale(1.07);
+  transition: 0.7s;
+}
+article .acer .acer1 .text-word {
+  margin: 20px 0px;
+}
+article .acer .acer1 .text-word h2 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+article .acer .acer1 .text-word p {
+  margin: 5px 0px;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+article .acer .acer1 .icon-logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  gap: 10px;
+}
+article .acer .acer1 .icon-logo a {
+  color: black;
+}
+article .acer .acer2 {
+  width: 240px;
+  height: 339px;
+  overflow: hidden;
+}
+article .acer .acer2 img {
+  cursor: pointer;
+  transition: 0.7s;
+}
+article .acer .acer2 img:hover {
+  transform: scale(1.07);
+  transition: 0.7s;
+}
+article .acer .acer2 .text-word {
+  margin: 20px 0px;
+}
+article .acer .acer2 .text-word h2 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+article .acer .acer2 .text-word p {
+  margin: 5px 0px;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+article .acer .acer2 .icon-logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  gap: 10px;
+}
+article .acer .acer2 .icon-logo a {
+  color: black;
+}
+article .acer .acer3 {
+  width: 240px;
+  height: 339px;
+  overflow: hidden;
+}
+article .acer .acer3 img {
+  cursor: pointer;
+  transition: 0.7s;
+}
+article .acer .acer3 img:hover {
+  transform: scale(1.07);
+  transition: 0.7s;
+}
+article .acer .acer3 .text-word {
+  margin: 20px 0px;
+}
+article .acer .acer3 .text-word h2 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+article .acer .acer3 .text-word p {
+  margin: 5px 0px;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+article .acer .acer3 .icon-logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  gap: 10px;
+}
+article .acer .acer3 .icon-logo a {
+  color: black;
+}
+article .acer .acer4 {
+  width: 240px;
+  height: 339px;
+  overflow: hidden;
+}
+article .acer .acer4 img {
+  cursor: pointer;
+  transition: 0.7s;
+}
+article .acer .acer4 img:hover {
+  transform: scale(1.07);
+  transition: 0.7s;
+}
+article .acer .acer4 .text-word {
+  margin: 20px 0px;
+}
+article .acer .acer4 .text-word h2 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+article .acer .acer4 .text-word p {
+  margin: 5px 0px;
+  font-family: Vollkorn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+article .acer .acer4 .icon-logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  gap: 10px;
+}
+article .acer .acer4 .icon-logo a {
+  color: black;
+}
+
+figure {
+  background: #f5f5f5;
+  padding: 50px 0px;
+  width: 100%;
+}
+figure .circle {
+  background-color: black;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  margin: auto;
+  text-align: center;
+}
+figure .circle i {
+  padding: 17px 0px;
+  color: white;
+  font-size: 24px;
+}
+figure .last-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+  flex-wrap: wrap;
+}
+figure .last-one .last-one1 {
+  width: 446.5px;
+  height: 215px;
+}
+figure .last-one .last-one1 .finish {
+  text-align: center;
+  margin: auto;
+}
+figure .last-one .last-one1 .finish h4 {
+  font-family: Vollkorn;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+figure .last-one .last-one1 .finish img {
+  margin: 20px auto;
+  text-align: center;
+}
+figure .last-one .last-one1 .finish p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #ababab;
+}
+figure .last-one .last-one2 {
+  width: 446.5px;
+  height: 215px;
+}
+figure .last-one .last-one2 .finish {
+  text-align: center;
+  margin: auto;
+}
+figure .last-one .last-one2 .finish h4 {
+  font-family: Vollkorn;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+  width: 65%;
+  margin: auto;
+}
+figure .last-one .last-one2 .finish img {
+  margin: 20px auto;
+  text-align: center;
+}
+figure .last-one .last-one2 .finish p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #ababab;
+}
+
+.selector {
+  background: url(./img/IMAGE\ \(34\).png);
+  width: 100%;
+  background-size: cover;
+  height: 520px;
+  background-repeat: no-repeat;
+}
+.selector h1 {
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  padding: 60px 0px 20px;
+  text-transform: uppercase;
+}
+.selector .lime {
+  width: 80px;
+  height: 2px;
+  text-align: center;
+  margin: 0px auto;
+  background: rgba(0, 0, 0, 0.0901960784);
+}
+.selector .shift {
+  margin: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.selector .shift .shift1 {
+  width: 320px;
+  height: 238px;
+  cursor: pointer;
+}
+.selector .shift .shift1:hover img {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.selector .shift .shift1 .unshift {
+  margin: auto;
+  text-align: center;
+}
+.selector .shift .shift1 .unshift p {
+  margin: 20px 0px 0px;
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+.selector .shift .shift1 .unshift h4 {
+  padding: 10px 0px;
+  font-family: Vollkorn;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+.selector .shift .shift1 .unshift img {
+  transition: 0.5s;
+}
+.selector .shift .shift2 {
+  width: 320px;
+  height: 238px;
+  cursor: pointer;
+}
+.selector .shift .shift2:hover img {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.selector .shift .shift2 .unshift {
+  margin: auto;
+  text-align: center;
+}
+.selector .shift .shift2 .unshift p {
+  text-transform: uppercase;
+  color: #333333;
+  margin: 30px 0px 0px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+.selector .shift .shift2 .unshift h4 {
+  padding: 10px 0px;
+  font-family: Vollkorn;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+.selector .shift .shift2 .unshift h5 {
+  font-family: Vollkorn;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+.selector .shift .shift2 .unshift img {
+  transition: 0.5s;
+}
+.selector .shift .shift3 {
+  width: 320px;
+  height: 238px;
+  cursor: pointer;
+}
+.selector .shift .shift3:hover img {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.selector .shift .shift3 .unshift {
+  margin: auto;
+  text-align: center;
+}
+.selector .shift .shift3 .unshift p {
+  text-transform: uppercase;
+  margin: 20px 0px 0px;
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+.selector .shift .shift3 .unshift img {
+  transition: 0.5s;
+}
+.selector .shift .shift3 .unshift .mini-icon {
+  display: block;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+.selector .shift .shift3 .unshift .mini-icon .mini-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 0px;
+  justify-content: center;
+}
+.selector .shift .shift3 .unshift .mini-icon .mini-icons a {
+  text-align: left;
+  color: #000000;
+}
+.selector .shift .shift3 .unshift .mini-icon .mini-icons h3 {
+  font-family: Vollkorn;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left !important;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  padding: 50px 0px;
+}
+footer .input {
+  width: 45%;
+  margin: 40px auto;
+  text-align: center;
+  height: 400px;
+}
+footer .input input {
+  padding: 20px 20px;
+  display: block;
+  width: 100%;
+  outline: none;
+  color: white !important;
+  border: none;
+  font-family: Vollkorn;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 22px;
+}
+footer .input .first {
+  background: rgb(28, 27, 27);
+}
+footer .input .second {
+  background: rgb(45, 44, 44);
+}
+footer .input .last {
+  height: 100px;
+}
+footer .input button {
+  margin: 30px auto;
+  font-family: Vollkorn;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  background: transparent;
+  color: #8bcac3;
+  border: 1px solid #8bcac3;
+  width: 210px;
+  height: 53px;
+  cursor: pointer;
+}
+footer .last-two {
+  margin: auto;
+  text-align: center;
+}
+footer .last-two p {
+  text-align: center;
+  margin: 20px auto;
+  color: white;
+  font-family: Vollkorn;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
